@@ -63,8 +63,7 @@ int main()
             d1.printDateOnConsole();
             break;
     case 4:
-            b = d1.leapyear();
-            if (b=1){
+            if (d1.leapyear()){
             cout<<"leap year\n";}
             else{
             cout<<"not leap year\n";}
